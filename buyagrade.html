@@ -26,8 +26,7 @@
 				
 				<dt>Section</dt>
 				<dd>
-					<select name="section" id="">
-						<option value="" selected disabled hidden>Select a section</option>
+					<select name="section">
 						<option value="MA">MA</option>
 						<option value="MB">MB</option>
 						<option value="MC">MC</option>
@@ -41,22 +40,19 @@
 				
 				<dt>Credit Card</dt>
 				<dd>
-					<input type="text" name="card" /> 
+					<input type="text" name="cardnumber" /> <br/>
+					<input type="radio" name="cardtype" value="visa" /> Visa </input>
+					<input type="radio" name="cardtype" value="master" /> MasterCard </input>
 				</dd>
-
-				<dd>
-					<input type="radio" name="card-type" value="visa" /> Visa
-					<input type="radio" name="card-type" value="mastercard" /> Master card
-				</dd>
-
+					
 			</dl>
 
-			<button type="submit" class="submit">
+	
 				<div>
-					I am a giant sucker.
+					<input type="submit" value="I am giant sucker."/>
+				
 				</div>
-			</button>
-		</form>
+			</form>
 
 	</body>
 </html>
